@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  border: 0;
+}
+
+.list {
+ list-style: none;
+}
+
+ .conteiner{
+    width: 900 px;
+    margin:0 auto;
+}
+
+ .page-nav{
+    margin: 0;
+    padding: 0;
+}
+
+ .navigation {
+    margin-top: 80 px;
+    margin-bottom: 105 px;
+    text-align: center;
+}
+
+ .navigation li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 120 px;
+    text-align: center;
+}
+
+ .navigation li:last-child {
+    margin-right: 0;
+}
+
+ .navigation a {
+    color: gray;
+    text-decoration: none;
+}
+
+ .navigation a:hover,
+ .navigation a:focus {
+    color:rgb(67,236,236);
+}
