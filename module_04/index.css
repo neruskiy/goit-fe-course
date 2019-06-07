@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+    width: 1112px;
+    margin: 0 auto;    
+
+}
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 111px 0;
+    
+}
+
+.site-logo{
+display: inline-block;
+text-transform: uppercase;
+font-family: 'Roboto';
+font-weight: 300;
+font-size: 21px;
+color:gray;
+}
+
+.site-logo::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #4ec6ab;
+    text-transform: uppercase;
+}
+
+.site-navigation{
+list-style: none;
+font-family: 'Roboto';
+text-transform: uppercase;
+
+}
+
+.link {
+    text-decoration:none;
+    color:#0f0101;
+    font-weight:bold;
+    display:block;
+    
+}
+
+.site-navigation li{
+display: inline-block;
+font-size: 10pt;
+}
+
+.site-navigation li:not(:last-child){
+    margin-right:35px;
+    
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: rgba(26, 188, 156, 255);
+    
+}
+
+.shop h2{
+    text-align: center;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 900;
+    color: #515151;
+    width: 477px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 131px;
+}
+.shop h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    top: 78px;
+    left: 155px;
+}
+
+.shop-menu {
+    list-style: none;
+    width:1112px;
+    margin: 0 auto;
+}
+
+.shop-menu li {
+    width: 255px;
+    height: 322px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 26px;
+}
+
+.shop-menu li:nth-child(4n) {
+    margin-right: 0;
+}
+.shop-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.wrapper {
+    margin-top:-4px;
+    font-size: 0;
+}
+
+.shop-menu-item-img {
+    background-color: #e9f0fd;
+    height: 282px;
+    width: 255px;
+}
+
+.description {
+    display: inline-block;
+    padding: 14px 0 13px 14px;
+    width: 200px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #323232;
+    color: white;
+
+}
+
+.price {
+    display: inline-block;
+    padding: 14px 0 13px 0;
+    width: 55px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #8c8c8c;
+    color: white;
+    text-align: center;
+}
+.shop-menu li:hover  .description {
+    background-color: #1abc9c;
+}
+
+.shop-menu li:hover  .price {
+    background-color: #7fd9c7;
+}
+.footer h2 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 900;
+    color: #515151;
+    width: 305px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 104px 0 122px 0;
+}
+.footer h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 7px;
+    background-color: #4ec6ab;
+    top: 182px;
+    left: 70px;
+}
+.footer ul {
+    list-style: none;
+    width:1112px;
+    margin: 0 auto;
+}
+.footer li{
+    width: 350px;
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.footer li:last-child {
+    margin-right: 0;
+}
+.footer-p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #555252;
+    padding: 14px 0 42px 0;
+    position: relative;
+}
+
+.footer-menu-item-img {
+    width: 100%;
+    height: 262px;
+}
+
+
+.footer-p::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 136px;
+    height: 3px;
+    background-color: #4ec6ab;
+    top: 77px;
+    left: 0;
+}
+
+.footer-p1 {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    color: #555252;
+    padding-bottom: 20px;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 81px;
+    padding: 18px 42px;
+    background-color: #4ec6ab;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
