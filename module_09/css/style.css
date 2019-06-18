@@ -1,21 +1,29 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
+﻿/* convetoinses */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
-@media(min-width: 320px) {
+
+@media all and (min-width: 320px) {
     .page__header {
         background: url(../img/main_img_mobile.png)rgba(0, 0, 0, 0.5) no-repeat;
         background-size: cover;
         height: 542px;
     }
+
     .container__for__link {
         padding: 32px 0 165px 0;
     }
+
     .container {
         margin: 0 auto;
     }
+    
+/* ссылки */
+
     .header__link1 {
         text-decoration: none;
         color: white;
@@ -24,6 +32,7 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
     }
+
     .header__link2 {
         text-decoration: none;
         color: white;
@@ -35,6 +44,7 @@
         border: 3px solid white;
         border-radius: 25px;
     }
+/* робота с текстом */
     .colorer {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
@@ -42,18 +52,21 @@
         color: white;
         text-transform: uppercase;
     }
+
     .header__logo {
         font-size: 20px;
         text-decoration: none;
         display: block;
         margin: 0 auto 39px;
     }
+
     .header__zagolovok {
         font-size: 30px;
         padding-bottom: 20px;
         display: block;
         margin: 0 auto;
     }
+
     .header__text {
         width: 217px;
         margin: 0 auto 19px;
@@ -63,6 +76,7 @@
         text-align: center;
         color: white;
     }
+/* кнопка */
     .button {
         width: 280px;
         height: 30px;
@@ -70,6 +84,7 @@
         border: 1px solid #ff4e50;
         border-radius: 25px;
         margin: 0 auto;
+        /* text-align: center; */
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 14px;
@@ -80,6 +95,9 @@
         text-align: center;
         padding-top: 10px;
     }
+
+/* заголовок */
+
     .main__zagolovok {
         font-size: 22px;
         font-family: 'Montserrat', sans-serif;
@@ -87,16 +105,23 @@
         text-align: center;
         padding: 69px 0 20px 0;
     }
+
+/* фото */
+
     .section__karman {
         margin-left: 60px;
         width: 200px;
         position: relative;
     }
+
     .div__img {
         margin: 0 auto;
         display: block;
         border-radius: 50%;
     }
+
+    /* мини ссылки */
+
     .section__paket1 {
         width: 35px;
         height: 35px;
@@ -107,6 +132,7 @@
         top: 75px;
         left: 110px;
     }
+
     .section__paket2 {
         width: 35px;
         height: 35px;
@@ -117,6 +143,7 @@
         top: 75px;
         left: 110px;
     }
+
     .section__paket3 {
         width: 35px;
         height: 35px;
@@ -127,6 +154,7 @@
         top: 75px;
         left: 110px;
     }
+
     .section__paket4 {
         width: 35px;
         height: 35px;
@@ -137,18 +165,27 @@
         top: 75px;
         left: 110px;
     }
+
+    /* паддинги ссылок */
+
     .a__img1 {
         padding: 6px 0 0 8px;
     }
+
     .a__img2 {
         padding: 8px 0 0 11px;
     }
+
     .a__img3 {
         padding: 7px 0 0 8px;
     }
+
     .a__img4 {
         padding: 8px 0 0 8px;
     }
+
+    /* текст */
+
     .img__h {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
@@ -156,6 +193,7 @@
         text-align: center;
         padding: 20px 0 15px 0;
     }
+
     .h__text {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
@@ -164,6 +202,9 @@
         color: gray;
         padding-bottom: 30px;
     }
+
+/* кнопка  */
+
     .buttoner {
         width: 276px;
         height: 36px;
@@ -182,9 +223,12 @@
 
 @media all and (min-width: 768px) {
 
+/* картина сайта */
+
     .container {
         width: 748px;
     }
+
     .page__header {
         background: url(../img/main_img.png)rgba(0, 0, 0, 0.5);
         background-repeat: no-repeat;
@@ -193,6 +237,9 @@
         height: 700px;
         position: relative;
     }
+
+/* ссылки */
+
     .header__link1 {
         position: absolute;
         top: 50px;
@@ -206,6 +253,9 @@
         top: 38px;
         left: 620px;
     }
+
+/* лого */
+
     .header__logo {
         padding: 0;
         margin: 0;
@@ -213,6 +263,9 @@
         top: 50px;
         left: 50px;
     }
+
+/* текст и кнопка */
+
     .header__zagolovok {
         font-size: 52px;
         padding-bottom: 40px;
@@ -231,6 +284,9 @@
         width: 225px;
         height: 30px;
     }
+
+/* позиционирование */
+
     .boder {
         display: flex;
         justify-content: space-around;
@@ -242,27 +298,35 @@
         margin-left: 0;
         width: 250px;
     }
+
+/* кнопка */
+
     .buttoner {
         margin-top: 10px;
         width: 188px;
         height: 36px;
     }
+
     .section__paket1 {
         top: 78px;
         left: 130px;
     }
+
     .section__paket2 {
         top: 78px;
         left: 130px;
     }
+
     .section__paket3 {
         top: 78px;
         left: 130px;
     }
+
     .section__paket4 {
         top: 78px;
         left: 130px;
     }
+
 }
 
 @media all and (min-width: 960px) {
@@ -279,18 +343,21 @@
         height: 700px;
         position: relative;
     }
+
     .header__link1 {
         position: absolute;
         top: 50px;
         left: 1040px;
         margin: 0;
     }
+
     .header__link2 {
         position: absolute;
         margin: 0;
         top: 38px;
         left: 1110px;
     }
+
     .header__logo {
         padding: 0;
         margin: 0;
@@ -298,40 +365,54 @@
         top: 50px;
         left: 240px;
     }
+
     .header__zagolovok {
         font-size: 52px;
         padding: 0 0 35px 0;
         width: 568px;
     }
+
     .button {
         margin-left: 610px;
         width: 225px;
         height: 30px;
     }
+
+    /* позиционирование */
+
     .boder {
         display: flex;
         justify-content: space-around;
     }
+
+
+    /* ниже кнопка */
+
     .buttoner {
         margin-top: 10px;
         margin-left: 635px;
     }
+
     .section__karman {
         margin-left: 0;
         width: 200px;
     }
+
     .section__paket1 {
         top: 76px;
         left: 105px;
     }
+
     .section__paket2 {
         top: 76px;
         left: 105px;
     }
+
     .section__paket3 {
         top: 76px;
         left: 105px;
     }
+
     .section__paket4 {
         top: 76px;
         left: 105px;
