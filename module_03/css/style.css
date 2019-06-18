@@ -13,9 +13,7 @@
 
 a {
     text-decoration: none;
-    /* Убирает подчеркивание для ссылок */
     text-transform: uppercase;
-    /*заглавные буквы*/
     font-family: 'Playfair Display', serif;
     color: #acacac;
     font-size: 14px;
@@ -30,8 +28,7 @@ a {
 }
 
 .navigation {
-    width: 1200px;
-    /*width: 900px;*/
+    width: 900px;
     margin: auto;
 }
 
@@ -40,8 +37,8 @@ a {
 }
 
 .lifestyle {
-    margin-left: 313px;
     display: block;
+    margin-left: 313px;
 }
 
 .photodiary {
@@ -69,7 +66,7 @@ section {
 }
 
 .container {
-    width: 960px;
+    width: 900px;
 }
 
 .lifestyle-ssilka {
@@ -118,25 +115,16 @@ p {
     font-size: 11px;
     color: #626262;
 }
-
-/* ФУТЕР */
-
- footer {
-    width: 1200px;
-    margin: auto;
-}
-
-.submite {
+.submit {
     display: block;
 } 
 
 .submit {
-    padding: 21px 34px 22px 34px;
-    margin: 54px 529px 70px 507px;
+    padding: 21px 22px;
+    margin: 54px 70px;
     background-color: #ffffff;
     border: 1px solid;
     font-family: 'PlayFair', serif;
     font-size: 17px;
+    margin: auto;
 } 
-
-

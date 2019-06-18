@@ -1,0 +1,80 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.headercontainer{
+    width: 320px;
+    height: 540px;
+}
+.headline3{
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.container1{
+    width: 196px;
+    height: 200px;
+    padding-left: 62px;
+    padding-right: 62px;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+}
+.container2{
+ width: 196px;
+ height: 200px;
+ padding-left: 62px;
+ padding-right: 62px;
+ padding-bottom: 30px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size: 14px;
+ text-align: center;
+ color: gray;
+}
+.container3{
+ width: 196px;
+ height: 200px;
+ padding-left: 62px;
+ padding-right: 62px;
+ padding-bottom: 30px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size: 14px;
+ text-align: center;
+ color: gray;
+}
+.container4{
+ width: 196px;
+ height: 200px;
+ padding-left: 62px;
+ padding-right: 62px;
+ padding-bottom: 30px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+ font-size: 14px;
+ text-align: center;
+ color: gray;
+}
+.buttoninend{
+    width: 276px;
+    height: 36px;
+    background-color: transparent;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    margin: 0 auto 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;
+    cursor: pointer;
+    display: block;
+}
+@media(min-width)
