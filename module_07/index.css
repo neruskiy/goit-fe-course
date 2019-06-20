@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.container {
+.header-container {
     width: 940px;
     margin: 0 auto;
 }
@@ -44,28 +44,27 @@
     font-size: 0;
 }
 
-  .logo {
+  .header-title {
     display: inline-block;
     font-family: 'Wisdom Script';
     font-size: 26px;
     color: #fed136;
 }
-
-  .site-nav {
+  .site-navig {
     list-style: none;
 }
-
-  .nav-item {
+  .navig-item {
     display: inline-block;
     margin-right: 40px;
     padding: 11px 0 0 0;
 }
 
-  .nav-item:last-child {
+  .navig-item:last-child {
     margin-right: 0;
 }
 
-  .nav-link {
+  .navig-link {
+    display: block;
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -74,15 +73,15 @@
     font-weight: 700;
 }
 
-  .nav-link:hover,
-  .nav-link:focus {
+  .navig-link:hover,
+  .navig-link:focus {
     transition-property: color;
     transition-duration: 200ms;
     transition-timing-function: ease;
     color: #fed136;
 }
 
-.nazvanie {
+.main-title {
     font-family: 'Roboto Slab';
     font-size: 40px;
     color: black;
@@ -91,7 +90,7 @@
     text-transform: uppercase;
 }
 
-.texter {
+.subtitle {
     font-family: 'Droid';
     text-align: center;
     opacity: 0.6;
@@ -108,12 +107,12 @@
     justify-content: space-between;
 }
 
-.list-img {
+.img {
     margin: 0 auto 28px;
     display: block;
 }
 
-.list-nazvanie {
+.list-title {
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
@@ -133,8 +132,12 @@
     background-color: #222222;
     background-size: cover;
     position: relative;
+    /*background-image: url(../img/Foot-bg.png);
+    position: absolute;
+    z-index: 1;
+    right: 2px;
+    top: 130px;*/
 }
-
 .connection {
     padding-top: 110px;
     font-size: 40px;
@@ -144,31 +147,20 @@
     color: white;
     text-transform: uppercase;
 }
-
 .info {
     font-family: 'Roboto Slab',sans-serif;
     text-align: center;
     color: #777777;
     padding: 23px 0 75px 0;
 }
-
-.country {
-    position: absolute;
-    z-index: 1;
-    right: 2px;
-    top: 130px;
-}
-
 .pre-footer {
     display: flex;
     justify-content: center;
 }
-
 .inputer {
     display: flex;
     flex-direction: column;
 }
-
 .input {
     width: 455px;
     height: 50px;
@@ -176,7 +168,12 @@
     border: 2px solid #e4e4e4;
     margin-top: 25px;
 }
-
+.input:valid{
+    outline:green;
+}
+.input:invalid{
+    outline:red;
+}
 .input:first-child {
     margin-top: 0;
 }
@@ -201,11 +198,9 @@
     margin-left: 30px;
     border-radius: 6px;
 }
-
 .text-area:hover {
     border: 1px solid red;
 }
-
 .text-area::placeholder {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -214,7 +209,6 @@
     padding: 20px 0 0 20px;
     text-transform: uppercase;
 }
-
 .submiter {
     width: 240px;
     height: 65px;
