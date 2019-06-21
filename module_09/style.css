@@ -5,10 +5,11 @@
     padding: 0;
 }
 @media all and (min-width: 320px) {
-    .page__header {
-        background: url(../img/fon_mobile.png) no-repeat;
+    .header {
+        background: url(../module_09/img/fon-mobile.png)rgba(0, 0, 0, 0.5);
         background-size: cover;
         height: 542px;
+
     }
     .link-zone {
         padding: 32px 0 165px 0;
@@ -18,6 +19,7 @@
     }
     .link1 {
         text-decoration: none;
+        position: absolute;
         color: white;
         font-size: 14px;
         margin-left: 80px;
@@ -27,6 +29,7 @@
     }
     .link2 {
         display: block;
+        position: absolute;
         text-decoration: none;
         color: white;
         font-size: 14px;
@@ -37,25 +40,27 @@
         border: 3px solid white;
         border-radius: 25px;
     }
-
-    .chromatic {
+    .header-headline-chromatic {
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        margin: 0 auto 39px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         text-align: center;
         color: white;
         text-transform: uppercase;
     }
-    .header-headline {
-        font-size: 20px;
-        text-decoration: none;
-        display: block;
-        margin: 0 auto 39px;
-    }
-    .header-title {
+    .header-title-chromatic {
         font-size: 30px;
         padding-bottom: 20px;
         display: block;
         margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
     }
     .header-text {
         width: 217px;
@@ -187,8 +192,8 @@
             .container {
                 width: 748px;
             }
-            .page__header {
-                background: url(../img/fon.png);
+            .header {
+                background: url(../module_09/img/fon.png)rgba(0, 0, 0, 0.5);
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 100%;
@@ -237,7 +242,7 @@
                 justify-content: space-around;
                 flex-wrap: wrap;
             }
-            .section__karman {
+            .section {
                 margin-left: 0;
                 width: 250px;
             }
@@ -275,8 +280,8 @@
                 margin: 0 auto;
             }
         
-            .page__header {
-                background: url(../img/fon.png)rgba(0, 0, 0, 0.5);
+            .header {
+                background: url(../module_09/img/fon.png)rgba(0, 0, 0, 0.5);
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 700px;
