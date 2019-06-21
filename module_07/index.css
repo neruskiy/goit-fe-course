@@ -3,47 +3,40 @@
     margin: 0;
     padding: 0;
 }
-
 .header-container {
     width: 940px;
     margin: 0 auto;
 }
-
 @font-face {
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 400;
     src: url('../shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Wisdom Script';
     font-style: normal;
     font-weight: 400;
     src: url('../shrift/Wisdom Script AI.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     src: url('../shrift/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
 }
-
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     src: url('../shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
 }
-
   .page-nav {
     display: flex;
     justify-content: space-between;
     padding: 40px 0 120px 0;
     font-size: 0;
 }
-
   .header-title {
     display: inline-block;
     font-family: 'Wisdom Script';
@@ -62,7 +55,6 @@
   .navig-item:last-child {
     margin-right: 0;
 }
-
   .navig-link {
     display: block;
     text-decoration: none;
@@ -72,7 +64,6 @@
     font-family: 'Montserrat';
     font-weight: 700;
 }
-
   .navig-link:hover,
   .navig-link:focus {
     transition-property: color;
@@ -80,7 +71,6 @@
     transition-timing-function: ease;
     color: #fed136;
 }
-
 .main-title {
     font-family: 'Roboto Slab';
     font-size: 40px;
@@ -89,7 +79,6 @@
     padding-bottom: 18px;
     text-transform: uppercase;
 }
-
 .subtitle {
     font-family: 'Droid';
     text-align: center;
@@ -97,28 +86,23 @@
     color: #777777;
     padding-bottom: 75px;
 }
-
 .service {
     width: 274px;
 }
-
 .list {
     display: flex;
     justify-content: space-between;
 }
-
 .img {
     margin: 0 auto 28px;
     display: block;
 }
-
 .list-title {
     font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
     padding-bottom: 16px;
 }
-
 .text {
     font-family: 'Roboto Slab';
     text-align: center;
@@ -126,17 +110,16 @@
     font-size: 14px;
     padding-bottom: 120px;
 }
-
-.index {
+.bottom {
     height: 676px;
     background-color: #222222;
     background-size: cover;
     position: relative;
-    /*background-image: url(../img/Foot-bg.png);
-    position: absolute;
+    background-image: url(../module_07/img/Map\ Image@1X.png);
+    position: relative;
     z-index: 1;
     right: 2px;
-    top: 130px;*/
+    top: 130px;
 }
 .connection {
     padding-top: 110px;
@@ -177,7 +160,6 @@
 .input:first-child {
     margin-top: 0;
 }
-
 .input::placeholder {
     font-family: 'Montserrat';
     font-weight: 700;
@@ -186,11 +168,9 @@
     padding: 19px 0 21px 20px;
     text-transform: uppercase;
 }
-
 .input:hover {
     border: 1px solid red;
 }
-
 .text-area {
     width: 455px;
     height: 200px;
