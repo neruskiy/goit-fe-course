@@ -11,25 +11,25 @@
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 400;
-    src: url('../shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
+    src: url('../module_07/shrift/roboto-slab-v8-cyrillic_latin-regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Wisdom Script';
     font-style: normal;
     font-weight: 400;
-    src: url('../shrift/Wisdom Script AI.woff2') format('woff2');
+    src: url('../module_07/shrift/Wisdom\ Script\ AI.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('../shrift/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
+    src: url('../module_07/shrift/montserrat-v13-cyrillic_latin-regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    src: url('../shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
+    src: url('../module_07/shrift/montserrat-v13-cyrillic_latin-700.woff2') format('woff2');
 }
   .page-nav {
     display: flex;
@@ -88,10 +88,8 @@
 }
 .service {
     width: 274px;
-}
-.list {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    justify-content: space-around;
 }
 .img {
     margin: 0 auto 28px;
@@ -190,6 +188,7 @@
     text-transform: uppercase;
 }
 .submiter {
+    display: block;
     width: 240px;
     height: 65px;
     border: 1px solid #fed136;
@@ -201,4 +200,8 @@
     font-size: 18px;
     text-transform: uppercase;
     color: white;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
 }

@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
 }
-@media all and (min-width: 320px) {
+@media (min-width: 320px) {
     .header {
-        background: url(../module_09/img/fon-mobile.png)rgba(0, 0, 0, 0.5);
+        background: url(../module_09/img/fon-mobile.png),linear-gradient(to right,rgba(77, 77, 77, 0.7)100%,rgba(77, 77, 77, 0.7)100%);
         background-size: cover;
         height: 542px;
 
@@ -14,22 +14,18 @@
     .link-zone {
         padding: 32px 0 165px 0;
     }
-    .container {
+    .header {
         margin: 0 auto;
     }
     .link1 {
         text-decoration: none;
-        position: absolute;
         color: white;
         font-size: 14px;
         margin-left: 80px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        display: block;
     }
     .link2 {
-        display: block;
-        position: absolute;
         text-decoration: none;
         color: white;
         font-size: 14px;
@@ -50,6 +46,7 @@
         text-align: center;
         color: white;
         text-transform: uppercase;
+        display: block;
     }
     .header-title-chromatic {
         font-size: 30px;
@@ -188,12 +185,12 @@
     }
 }
 
-@media all and (min-width: 768px) {
+@media (min-width: 768px) {
             .container {
                 width: 748px;
             }
             .header {
-                background: url(../module_09/img/fon.png)rgba(0, 0, 0, 0.5);
+                background: url(../module_09/img/fon.png),linear-gradient(to right,rgba(77, 77, 77, 0.7)100%,rgba(77, 77, 77, 0.7)100%);;
                 background-repeat: no-repeat;
                 background-size: cover;
                 width: 100%;
@@ -204,6 +201,7 @@
                 top: 50px;
                 left: 550px;
                 margin: 0;
+                position: absolute;
                 display: block;
             }
         
@@ -211,16 +209,17 @@
                 margin: 0;
                 top: 38px;
                 left: 620px;
+                position: absolute;
                 display: block;
             }
-            .header-headline {
+            .header-headline-chromatic {
                 padding: 0;
                 margin: 0;
                 position: absolute;
                 top: 50px;
                 left: 50px;
             }
-            .header-title{
+            .header-title-chromatic{
                 font-size: 52px;
                 padding-bottom: 40px;
                 width: 568px;
@@ -243,7 +242,7 @@
                 flex-wrap: wrap;
             }
             .section {
-                margin-left: 0;
+                margin: 0 auto;
                 width: 250px;
             }
             .button-in-end {
@@ -273,19 +272,19 @@
         
         }
         
-        @media all and (min-width: 960px) {
+        @media  (min-width: 960px) {
         
             .container {
-                width: 940px;
+                width: 960px;
                 margin: 0 auto;
             }
-        
             .header {
-                background: url(../module_09/img/fon.png)rgba(0, 0, 0, 0.5);
+                background: url(../module_09/img/fon.png),linear-gradient(to right,rgba(77, 77, 77, 0.7)100%,rgba(77, 77, 77, 0.7)100%);;
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 700px;
                 position: relative;
+                width: 100%;
             }
             .link1 {
                 top: 50px;
@@ -297,7 +296,7 @@
                 top: 38px;
                 left: 1110px;
             }
-            .header-headline {
+            .header-headline-chromatic {
                 padding: 0;
                 margin: 0;
                 position: absolute;
@@ -305,27 +304,25 @@
                 left: 240px;
             }
         
-            .header-title {
+            .header-title-chromatic {
                 font-size: 52px;
                 padding: 0 0 35px 0;
                 width: 568px;
             }
             .header-button {
-                margin-left: 610px;
                 width: 225px;
                 height: 30px;
+                margin: 0 auto;
             }
             .section {
-                display: flex;
+                margin-left: 20px;
+                width: 200px;
+                display: inline-table;
                 justify-content: space-around;
             }
             .button-in-end {
                 margin-top: 10px;
                 margin-left: 635px;
-            }
-            .section {
-                margin-left: 0;
-                width: 200px;
             }
             .subsection1 {
                 top: 76px;
